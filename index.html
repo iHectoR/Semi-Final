@@ -18,13 +18,13 @@
 						Цілодобово: <a href="tel:0(800)300-24-12"><span class="light-grey">0 (800)</span> 300-24-12</a>
 					</div>
 				</div>
-				<div class="col-md-3 col-md-offset-4">
-					<div class="background-icon write-us"><a href="mailto:#">Написати нам</a></div>
-				</div>
-				<div class="col-md-1 language">
-					<ul class="background-icon">
-						<li>УКР</li>
+				<div class="col language">
+					<ul class="lang-dropdown">
+						<li><a href="#">УКР</a></li>
 					</ul>
+				</div>
+				<div class="col">
+					<div class="background-icon write-us"><a href="mailto:#">Написати нам</a></div>
 				</div>
 			</div>
 		</div>
@@ -32,24 +32,58 @@
 	<div class="container">
 		<div class="row navigation">
 			<div class="col-md-4">
-				<div class="logo"><a href="/"><img src="img/logo.png" alt=""/></a></div>
+				<div class="logo"><a href="index.html"><img src="img/logo.png" alt=""/></a></div>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-5 menu-wrap">
 				<nav>
-					<ul class="menu top-menu">
-						<li><a href="catalogue.html">Каталог</a></li>
-						<li><a href="#">новини</a></li>
+					<ul class="menu top-menu justify-elements">
+						<li class="has-dropdown"><a href="catalogue.html">Каталог</a>
+							<div class="full-width">
+								<div class="container">
+									<div class="row">
+										<div class="col">
+											<ul>
+												<li class="background-icon cyan dress"><a href="#">Одяг</a></li>
+												<li class="background-icon pink dishes"><a href="#">Посуд</a></li>
+												<li class="background-icon red kids"><a href="#">Товари для дітей</a></li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li class="background-icon yellow boots"><a href="#">Взуття</a></li>
+												<li class="background-icon blue alc"><a href="#">Алкогольні напої</a></li>
+												<li class="background-icon pink jew"><a href="#">Прикраси</a></li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li class="background-icon red cosm"><a href="#">Косметика</a></li>
+												<li class="background-icon green food"><a href="#">Їжа</a></li>
+												<li class="background-icon cyan chem"><a href="#">Битовая хімія</a></li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li class="background-icon green hyg"><a href="#">Засоби гігієни</a></li>
+												<li class="background-icon cyan bags"><a href="catalogue.html">Чемодани та сумки</a></li>
+												<li class="background-icon yellow misc"><a href="#">Різне</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="index.html#news">новини</a></li>
 						<li><a href="#">блог</a></li>
 						<li><a href="#">про проект</a></li>
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-3 vertical-align">
-				<div class="search ">
-					<form action="#"><input type="text"/>
-						<button></button>
-					</form>
-				</div>
+			<div class="col-md-3 vertical-align search ">
+				<form action="#">
+					<input type="search"/>
+					<button class="search-button"></button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -64,6 +98,7 @@
 			<div class="about-block">
 				<h1 class="myra-font call-2-act">Купуй Українське</h1>
 				<h5 class="description title-decor">інтернет-каталог українських виробників</h5>
+
 				<p>Наразі купувати українські продукти та речі не тільки вигідно, а є вже правилом гарного тону. Українські виробники виробляють майже все: від колготок до танків, від іграшок до спортивного інвентарю. </p>
 			</div>
 			<div class="romb-wrap vert-align-abs right-romb">
@@ -77,12 +112,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="image-item portfolio-item">
-					<p>Нова колекція одягу від українського бренду <span class="brand">Balcony garment</span></p>
+				<div class="image-item portfolio-item garment">
+					<div class="bottom-caption">
+						<p class="inline-bg">Нова колекція одягу від українського бренду <br/><span class="brand">Balcony garment</span></p>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="transp-item portfolio-item">
+				<div class="transp-item portfolio-item where">
+					<div class="desc-img-wrap vertical-align"><img src="img/home-icon.png" alt=""/></div>
 					<h5 class="title-decor">де купити?</h5>
 
 					<p>На сайті ви заможете знайти адресу, де можна купити будь-який товар, що Вам сподобався</p>
@@ -90,27 +128,32 @@
 			</div>
 			<div class="col-md-4">
 				<div class="border-item portfolio-item">
+					<div class="item-img-wrap vertical-align"><img src="img/bag.jpg" alt=""/></div>
 					<h5 class="title-decor">візьми з собою все</h5>
 
-					<p>Молодіжні рюкзаки від бренду<span class="small-brand">Derby</span></p>
+					<p>Молодіжні рюкзаки від бренду <span class="small-brand">Derby</span></p>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="transp-item portfolio-item">
+				<div class="transp-item portfolio-item how-much">
+					<div class="desc-img-wrap vertical-align"><img src="img/coins.png" alt=""/></div>
 					<h5 class="title-decor">Яка вартість?</h5>
 
 					<p>Непоступаючись якістю, українські товари мають дуже приємну вартість</p>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="image-item portfolio-item">
-					<p>Нова колекція ювелірних виробів від <span class="brand">Talia Jewellery</span></p>
+				<div class="image-item portfolio-item jewellery">
+					<div class="bottom-caption">
+						<p class="inline-bg">Нова колекція ювелірних виробів від <br/><span class="brand">Talia Jewellery</span></p>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="transp-item portfolio-item">
+				<div class="transp-item portfolio-item quality">
+					<div class="desc-img-wrap vertical-align"><img src="img/trophy.png" alt=""/></div>
 					<h5 class="title-decor">а як щодо якості?</h5>
 
 					<p>Українські товари нічим не поступаються у якості перед своїми закордонними аналогами.</p>
@@ -119,20 +162,25 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="image-item portfolio-item">
-					<p>Нові надходження взуття <span class="brand">Kachorovska atelier</span></p>
+				<div class="image-item portfolio-item kachorovska">
+					<div class="bottom-caption">
+						<p class="inline-bg">Нові надходження взуття <span class="brand">Kachorovska atelier</span></p>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="border-item portfolio-item">
+					<div class="item-img-wrap vertical-align"><img src="img/cosmetics.jpg" alt=""/></div>
 					<h5 class="title-decor">Красу не затьмарити</h5>
 
 					<p>Мінеральна пудра від бренду <span class="small-brand">MYRIAM</span></p>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="image-item portfolio-item">
-					<p><span class="brand">Бабині кози</span>Натуральна молочна продукція</p>
+				<div class="image-item portfolio-item milk">
+					<div class="bottom-caption">
+						<p class="inline-bg"><span class="brand">Бабині кози</span><br/>Натуральна молочна продукція</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -141,30 +189,30 @@
 <section id="news">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12"><h4 class="myra-font">Новини</h4></div>
+			<div class="col-xs-12"><h4 class="myra-font section-title"><span class="romb small-romb">Новини</span></h4></div>
 			<div class="col-md-3">
-				<h3>Українські товари для європейських магазинів</h3>
+				<h3 class="blog-item-title">Українські товари для європейських магазинів</h3>
 
 				<div class="entry">
 					<p>З сьогоднішнього дня набирає чинності рішення Ради Європейського Союзу про одностороннього скасування мита на українські товари. Ці преференції будуть діяти тимчасово, до 1 листопада.</p>
 				</div>
 			</div>
 			<div class="col-md-3">
-				<h3>новая коллекція одягу українського бренду</h3>
+				<h3 class="blog-item-title">новая коллекція одягу українського бренду</h3>
 
 				<div class="entry">
 					<p>Пишні букети розпустилися на показі Андре Тана, прикрасивши подіум, а акуратні бутони - архітектурно скроєні жакети і жіночні сукні завдовжки трохи нижче колін. Цього разу дизайнер запросив гостей на квітковий ринок, присвятивши колекцію жінки-квітки.</p>
 				</div>
 			</div>
 			<div class="col-md-3">
-				<h3>Україна розпочала випуск нової марки мобільних телефонів</h3>
+				<h3 class="blog-item-title">Україна розпочала випуск нової марки мобільних телефонів</h3>
 
 				<div class="entry">
 					<p>Мобільний телефон призначений для тих, хто купує свій перший мобільний телефон для зв'язку і веб-серфінгу, а також використання різних цифрових сервісів.</p>
 				</div>
 			</div>
 			<div class="col-md-3">
-				<h3>Українські товари для європейських магазинів</h3>
+				<h3 class="blog-item-title">Українські товари для європейських магазинів</h3>
 
 				<div class="entry">
 					<p>З сьогоднішнього дня набирає чинності рішення Ради Європейського Союзу про одностороннього скасування мита на українські товари. Ці преференції будуть діяти тимчасово, до 1 листопада.</p>
@@ -173,18 +221,18 @@
 		</div>
 	</div>
 </section>
-<section class="subscribe">
+<section class="subscribe full-width-bg-img ">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<h4 class="myra-font title-decor">Оформити підписку на новини</h4>
+				<h4 class="myra-font title-decor section-title">Оформити підписку на новини</h4>
 
 				<p>Дізнавайтеся першими про нові товари українського виробника</p>
 
-				<form action="#">
+				<form action="#" class="justify-elements">
 					<input type="text" placeholder="Ваше ім я"/>
 					<input type="email" placeholder="E-mail"/>
-					<button>Підписатися</button>
+					<button class="button">Підписатися</button>
 				</form>
 			</div>
 		</div>
@@ -194,62 +242,69 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<h4 class="myra-font">ми в соцмережах</h4>
-
-				<div class="col-md-3 single-social">
-					<p>Facebook</p>
-					<a href="#"></a>
+				<h4 class="myra-font section-title"><span class="romb small-romb">ми в соцмережах</span></h4>
+			</div>
+			<div class="col-xs-12 share-buttons">
+				<div class="single-social">
+					<p class="social-name">Facebook</p>
+					<a href="#" class="fb"></a>
 
 					<div class="counter">1k</div>
-					<p class="total">1054 people like Made in Ukraine</p>
+					<p class="total"><b>1054</b> people like <b>Made in Ukraine</b></p>
 				</div>
-				<div class="col-md-3 single-social">
-					<p>Вконтакте</p>
-					<a href="#"></a>
+				<div class="single-social">
+					<p class="social-name">Вконтакте</p>
+					<a href="#" class="vk"></a>
 
 					<div class="counter">458</div>
-					<p class="total">Підписано 34 569 чоловік</p>
+					<p class="total">Підписано <b>34 569</b> чоловік</p>
 				</div>
-				<div class="col-md-3 single-social">
-					<p>Twitter</p>
-					<a href="#"></a>
+				<div class="single-social">
+					<p class="social-name">Twitter</p>
+					<a href="#" class="tw"></a>
 
 					<div class="counter">458</div>
-					<p class="total">34 569 follow us</p>
+					<p class="total"><b>34 569</b> follow us</p>
 				</div>
-				<div class="col-md-3 single-social">
-					<p>Instagram</p>
-					<a href="#"></a>
+				<div class="single-social">
+					<p class="social-name">Instagram</p>
+					<a href="#" class="inst"></a>
 
 					<div class="counter">458</div>
-					<p class="total">745 follow us</p>
+					<p class="total"><b>745</b> follow us</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+<footer class="footer">
+	<div class="bottom-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="background-icon write-us"><a href="mailto:#">Написати нам</a></div>
+				</div>
+				<div class="col-md-6">
+					<nav>
+						<ul class="menu bottom-menu justify-elements">
+							<li><a href="#">про проект</a></li>
+							<li><a href="#">каталог</a></li>
+							<li><a href="#">блог</a></li>
+							<li><a href="#">Новини</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-3 our-socials">
+					<a href="#" class="social-page vk-page"></a>
+					<a href="#" class="social-page fb-page"></a>
+					<a href="#" class="social-page tw-page"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
-<footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="contact write">Написати нам</div>
-			</div>
-			<div class="col-md-6">
-				<nav>
-					<ul class="menu bottom-menu">
-						<li><a href="#">про проект</a></li>
-						<li><a href="#">каталог</a></li>
-						<li><a href="#">блог</a></li>
-						<li><a href="#">Новини</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="col-md-3 our-socials">
-				<a href="#" class="social-page"></a>
-				<a href="#" class="social-page"></a>
-				<a href="#" class="social-page"></a>
-			</div>
-		</div>
+	<div class="copyright">
+		<p>&copy; Интернет-каталог українських виробників «Купуй українське» 2015</p>
 	</div>
 </footer>
 </body>
